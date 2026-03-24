@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [`${process.env.UPLOADTHING_ID}.ufs.sh`],
+    remotePatterns:[{hostname: `${process.env.UPLOADTHING_ID}.ufs.sh`}]
   },
 }
 

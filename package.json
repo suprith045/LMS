@@ -12,7 +12,7 @@
     "db:seed": "prisma db seed"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.19.3",
+    "@clerk/nextjs": "^7.0.6",
     "@hello-pangea/dnd": "^16.6.0",
     "@hookform/resolvers": "^3.10.0",
     "@mux/mux-node": "^7.3.5",
@@ -36,11 +36,11 @@
     "cmdk": "^1.1.1",
     "dotenv": "^17.2.3",
     "lucide-react": "^0.510.0",
-    "next": "^15.3.2",
+    "next": "^16.2.1",
     "query-string": "^8.2.0",
-    "react": "^19.1.0",
+    "react": "^19.2.4",
     "react-confetti": "^6.4.0",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.2.4",
     "react-hook-form": "^7.56.3",
     "react-hot-toast": "^2.5.2",
     "react-icons": "^4.12.0",
@@ -66,6 +66,7 @@
     "prettier-plugin-tailwindcss": "^0.5.14",
     "prisma": "^7.3.0",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.21.0",
     "typescript": "^5.8.3"
   },
   "config": {
